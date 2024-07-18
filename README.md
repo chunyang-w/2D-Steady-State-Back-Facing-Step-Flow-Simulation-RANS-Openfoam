@@ -10,7 +10,7 @@ This repo contains the code for numeric simulation for the State Back Facing Ste
 + rho: 1
 + nu: 1e-5
 
-## [simulation domain](https://github.com/chunyang-w/2D-Steady-State-Back-Facing-Step-Flow-Simulation-RANS-Openfoam/blob/9b20ad49a3b88db4cffa777ab691e79da4add2e0/mesh_data/backflow_mesh.geo#L25-L30):
+## [Simulation domain](https://github.com/chunyang-w/2D-Steady-State-Back-Facing-Step-Flow-Simulation-RANS-Openfoam/blob/9b20ad49a3b88db4cffa777ab691e79da4add2e0/mesh_data/backflow_mesh.geo#L25-L30):
 ```
 //
 //        ----------------------------------------------
