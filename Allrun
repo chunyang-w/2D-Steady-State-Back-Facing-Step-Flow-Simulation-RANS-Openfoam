@@ -1,0 +1,27 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # Run from this directory
+
+# Source tutorial run functions
+. $WM_PROJECT_DIR/bin/tools/RunFunctions
+
+# clean previous run before execution
+./Allclean
+
+# Get application directory
+application=$(getApplication)
+
+python ./mesh_data/gen_mesh.py
+
+runApplication decomposePar
+
+# runParallel $application
+
+# mpirun -np 1 pimpleFoam -parallel
+mpirun -np 8 simpleFoam -parallel
+
+runApplication reconstructPar
+
+foamToVTK
+
+
+#------------------------------------------------------------------------------
