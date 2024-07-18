@@ -6,11 +6,11 @@ This repo contains the code for numeric simulation for the State Back Facing Ste
 
 ## Simulation detail:
 
-Inlet velocity: 1m/s
-rho: 1
-nu: 1e-5
++ Inlet velocity: 1m/s
++ rho: 1
++ nu: 1e-5
 
-simulation domain:
+## simulation domain:
 ```
 //
 //        ----------------------------------------------
