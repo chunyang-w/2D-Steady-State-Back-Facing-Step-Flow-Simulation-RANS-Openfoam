@@ -6,7 +6,7 @@ This repo contains the code for numeric simulation for the State Back Facing Ste
 
 ## Simulation detail:
 
-+ Inlet velocity: 1m/s
++ Inlet velocity: [1m/s](https://github.com/chunyang-w/2D-Steady-State-Back-Facing-Step-Flow-Simulation-RANS-Openfoam/blob/4237294e5816c0a9672e1b643001d57fb93076ec/0/U#L25)
 + rho: 1
 + nu: 1e-5
 
